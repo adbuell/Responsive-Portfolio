@@ -241,51 +241,88 @@ input[type=submit] {
 /*media queries*/
 
 @media only screen and (max-width: 980px) {
-nav {
-  width: 25%;
-  padding-top: 5px;
+  #logo {
+    width:  25%;
+    height: 10%;
+    text-align: center;
+    margin-left: 20px;
+  }
+
+  nav {
+    width: 25%;
+    padding-top: 5px;
 }
 
-nav a {
-        border-bottom: 1px solid #EAEAEB;
-        margin: 0;
+  nav a {
+    border-bottom: 1px solid #EAEAEB;
+    margin: 0;
 }
-.sidebar {
-  padding: 10px;
-  width: 100%;
-  float: none;
-  max-width: none;
-  padding-top: 5px;
-  text-align: center;
+
+  .sidebar {
+    padding: 20px;
+    width: 25%;
+    float: left;
+    max-width: none;
+    text-align: center;
 }
-.main-content {
-  float: none;
-  width: 100%;
-  margin: auto;
+
+  .main-section {
+    float: left;
+    width: 60%;
+    margin-right: 30px;
+    margin-left: 20px;
 }
 }
 
 @media only screen and (max-width: 768px) {
+    #logo {
+      width:  25%;
+      height: 10%;
+      text-align: center;
+  }
 
-nav {
-  width: 25%;
-  padding-top: 5px;
+    nav {
+      width: 100%;
+      padding-top: 5px;
 }
 
-nav a {
-  display: block;
-  border-bottom: 1px solid #EAEAEB;
-  margin: 0;
+    nav a {
+      display: block;
+      border-bottom: 1px solid #EAEAEB;
+      margin: 0;
 }
-.sidebar {
-  padding: 10px;
-  width: 100%;
-  float: none;
-  max-width: none;
-  padding-top: 5px;
-  text-align: center;
+    .sidebar {
+      padding: 10px;
+      width: 100%;
+      float: left;
+      max-width: none;
+      padding-top: 5px;
+      text-align: center;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 640px) {
 
@@ -297,23 +334,21 @@ nav a {
         display: block;
         border-bottom: 1px solid #EAEAEB;
         margin: 0;
+        float: left;
 }
 
 #logo {
-  width:  100%;
+  width: 100%;
   height: 10%;
   text-align: center;
-}
 
-nav a {
-  float: left;
 }
-
-  #masthead {
+#masthead {
     position: static;
+    height: 10%;
 }
 
-  nav a:first-child {
+nav a:first-child {
     padding-left: 200px;
 }
 
