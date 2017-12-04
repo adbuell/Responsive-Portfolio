@@ -240,12 +240,57 @@ input[type=submit] {
 
 /*media queries*/
 
+@media only screen and (max-width: 980px) {
+nav {
+  width: 25%;
+  padding-top: 5px;
+}
+
+nav a {
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+}
+.sidebar {
+  padding: 10px;
+  width: 100%;
+  float: none;
+  max-width: none;
+  padding-top: 5px;
+  text-align: center;
+}
+.main-content {
+  float: none;
+  width: 100%;
+  margin: auto;
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+nav {
+  width: 25%;
+  padding-top: 5px;
+}
+
+nav a {
+  display: block;
+  border-bottom: 1px solid #EAEAEB;
+  margin: 0;
+}
+.sidebar {
+  padding: 10px;
+  width: 100%;
+  float: none;
+  max-width: none;
+  padding-top: 5px;
+  text-align: center;
+}
+}
+
 @media only screen and (max-width: 640px) {
 
 nav {
-
-        width: 100%;
-
+  width: 100%;
 }
 
 nav a {
@@ -289,7 +334,7 @@ nav a {
 padding-right: 30px;
 float: none;
 margin-right: 20px;
-
 }
+
 
 }
