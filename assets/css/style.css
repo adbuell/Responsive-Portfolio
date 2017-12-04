@@ -251,13 +251,13 @@ input[type=submit] {
   nav {
     width: 25%;
     padding-top: 5px;
-}
+  }
 
   nav a {
     border-bottom: 1px solid #EAEAEB;
     margin: 0;
     float: left;
-}
+  }
 
   .sidebar {
     padding: 20px;
@@ -265,61 +265,73 @@ input[type=submit] {
     float: left;
     max-width: none;
     text-align: center;
-}
+  }
 
   .main-section {
     float: left;
     width: 60%;
     margin-right: 30px;
     margin-left: 20px;
-}
-}
+  }
+  }
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 768px) {
     #logo {
       width:  25%;
       height: 10%;
       text-align: center;
-      margin-top: 30px;
-  }
+      margin-top: 5px;
+
+    }
+    .main-section {
+      margin-left: 40px;
+      width: 100%;
+    }
 
     nav {
-      width: 100%;
-      padding-top: 5px;
-
+      width: 25%;
+      margin-top: 20px;
+      margin-right: 100px;
     }
 
     #masthead  {
       position: static;
-      height: 10%;
-
+      height: 100px;
     }
 
     #main-container {
       padding-top: 20px;
     }
 
-
     nav a {
-      display: block;
       border-bottom: 1px solid #EAEAEB;
       margin: 0;
       float: left;
-}
+    }
     .sidebar {
-      padding: 10px;
-      width: 100%;
-      float: left;
-      max-width: none;
+
+      width: 88%;
       padding-top: 5px;
       text-align: center;
-}
+      margin-left: 40px;
+    }
+
+    }
     nav a:first-child {
-      padding-left: 500px;
+      margin-left: 20px;
 
 
-}
-}
+
+    }
+    }
 
 
 
