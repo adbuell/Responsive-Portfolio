@@ -346,7 +346,7 @@ h3 {
     height: 60px;
     float: left;
     margin-left: 0;
-    padding-bottom: 20px;
+    line-height: 60px;
 
   }
   nav {
